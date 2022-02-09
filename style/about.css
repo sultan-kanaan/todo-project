@@ -1,0 +1,90 @@
+body { 
+    margin: auto;
+        padding: 30px;
+        }
+.me{
+    border-radius: 50px;
+    width:200px;
+    height:250px;
+}
+header
+  {
+   display: flex;
+   align-items: center;
+   height: 70px;
+   justify-content: space-between;
+   background-color: #F0F0F0 ;
+  }
+  nav a {
+    float: right ;
+    margin: 20px;
+    border: 1px solid #bea826;
+    text-transform: uppercase;
+    padding: 10 ;
+    
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .logo {
+    
+    width: 50px;
+    background-color: #F0F0F0;
+  }
+  .info{
+    display: grid;
+    grid-template-columns: 1fr 900px;
+    margin: 50px;
+    gap: 50px;
+  }
+
+  .user {
+    margin: 20px;
+    padding: 20px 90px  20px 190px ;
+    text-transform: uppercase;
+
+  }
+  input {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+;  }
+  .msg{
+    
+    padding:2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    }
+.log{
+background-color: #6A5495;
+padding-left: 1rem;
+
+}
+  div h3 {
+    border: 1px solid #bea826;
+    margin: 20px;
+    padding: 60px;
+
+
+  }
+  div h1 {
+      text-align: center;
+  }
+ div a {
+    font-size:x-large;
+    text-transform: uppercase;
+    padding: 60px;
+    
+}
+  footer {
+    text-align: center;
+    background-color: #F0F0F0 ;
+    margin: 30px;
+    padding: 20px;
+}
