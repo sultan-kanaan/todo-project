@@ -9,13 +9,13 @@ alert("your age is wrong !");
 }
 
 if(gender === "male" || gender === "Male"){
-alert('welcome Mr. ${name}');
+alert(`welcome Mr. ${name}`);
 }
 else  if(gender === "female"||gender === "Feale"){
-alert('welcome Ms. ${name}');
+alert(`welcome Ms. ${name}`);
 }
 else{
-alert('welcome  ${name}');
+alert(`welcome  ${name});
 }
 
 
