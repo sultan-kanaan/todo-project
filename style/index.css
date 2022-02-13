@@ -15,15 +15,22 @@ body {
     width:70% ;
     font-size: x-large
     
+    
     ;
     }
        .green {
          background-color: green;
          color: green;
+         display: inline-block;
+         
+
+
        }
+       
        .red {
         background-color:red ;
         color:red ;
+        display: inline-block;
       }
         
       .logo {
