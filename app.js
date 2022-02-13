@@ -27,55 +27,51 @@
 //     alert("your age is wrong !");
 //     }
 
-    var Relationship = prompt("Are you singel ? yes/no");
-    var car = prompt("Do you have a car  ? yes/no");
-    var playChess = prompt("Can you play chess? yes/no");
-   
-    function answer(userAnswer){
-        if(userAnswer === "yes"||userAnswer === "Yes" )
-        {
-            userAnswer = "yes";
-            // console.log(userAnswer)
+   var Relationship = prompt("Are you singel ? yes/no");
+  var car = prompt("Do you have a car  ? yes/no");
+  var playChess = prompt("Can you play chess? yes/no");
 
-        }
-        
-        else if (userAnswer === "no" ||userAnswer === "No" )
-        {
-            userAnswer = "no";
-            // console.log(userAnswer)
+  var arrayTheAnswer = [];
 
-        }
-        else
-        {
-            userAnswer = "invalid" ;
-            // console.log(userAnswer)
 
-        }
-    }
-
-    answer(Relationship);
-    answer(car);
-    answer(playChess);
-    
-
-    var arrayTheAnswer = [];
-
-    function push (add)
+  function answer(userAnswer){
+    if(userAnswer === "yes"||userAnswer === "Yes" )
     {
-        arrayTheAnswer.push(add);
-    }
-    push(Relationship);
-    push(car);
-    push(playChess);
-    
-    function printAnswer(print){
+      push("yes");
 
-        for(var i=0 ;i<arrayTheAnswer.length;i++)
-        {
-           answer(print[i])
-        }
-
-        
     }
-printAnswer(arrayTheAnswer);
+
+    else if (userAnswer === "no" ||userAnswer === "No" )
+    {
+      push("no");
+
+    }
+    else
+    {
+      push("invalid") ;
+
+    }
+  }
+
+  answer(Relationship);
+  answer(car);
+  answer(playChess);
+
+  function push (add)
+  {
+    arrayTheAnswer.push(add);
+  }
+
+  function printAnswer(){
+
+    for(let i=0 ;i<arrayTheAnswer.length;i++)
+    {
+      console.log(arrayTheAnswer[i])
+    }
+
+
+  }
+  printAnswer(arrayTheAnswer);
+
+  // with my love
 
